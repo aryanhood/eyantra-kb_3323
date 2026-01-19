@@ -1,0 +1,31 @@
+{
+  "description": "Linearized inverted pendulum plant (upright equilibrium)",
+  "states": ["x", "x_dot", "theta", "theta_dot"],
+  "input": ["u"],
+  "sampling_time": 0.01,
+
+  "A": [
+    [0, 1, 0, 0],
+    [0, -0.117647, 7.848, 0],
+    [0, 0, 0, 1],
+    [0, -1.470588, 98.039216, 0]
+  ],
+
+  "B": [
+    [0],
+    [50.50505050505051],
+    [0],
+    [631.3131313131314]
+  ],
+
+  "physical_params": {
+    "m_body": 0.6,
+    "m_wheel": 0.03,
+    "wheel_radius": 0.03,
+    "com_length": 0.08,
+    "body_inertia": 0.002,
+    "wheel_inertia": 1e-05,
+    "damping": 0.1,
+    "gravity": 9.81
+  }
+}
