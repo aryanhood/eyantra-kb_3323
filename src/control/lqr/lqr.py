@@ -14,4 +14,4 @@ class LQRController:
         """
         state = np.asarray(state).reshape(-1, 1)
         u = -self.K @ state
-        return float(u)
+        return float(u.item())
