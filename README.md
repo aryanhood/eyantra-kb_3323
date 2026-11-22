@@ -1,6 +1,6 @@
 # Self-Balancing Bot Control & CoppeliaSim (`eYRC KB #3323`)
 
-Control-theory, state-estimation, and simulation modules developed for a two-wheeled self-balancing robot platform.
+Control-theory, state-estimation, and simulation modules built for a two-wheeled self-balancing robot during the e-Yantra Robotics Competition (`KB #3323`). This repo pairs symbolic state-space linearization and LQR/PID controller design with IMU complementary filtering and CoppeliaSim actuation scripts (see [`self_balance_robot`](https://github.com/aryanhood/self_balance_robot) for the standalone PID vs. LQR disturbance-rejection benchmark).
 
 ---
 
